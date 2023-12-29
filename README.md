@@ -1,5 +1,5 @@
 # GitHub
-# GitHub configuration
+## GitHub configuration
 One can add their name and email address and other configuration information using 
 
 ```
