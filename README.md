@@ -123,5 +123,20 @@ ls -la
 ```
 just 'ls' won't show you the hidden files.
 
+## To undo the last edits
+```
+git checkout <filename>
+```
+Doing this will delete the last changes that were made to the file/files. This can be only before stagging the modified files.
+
+## To unstage file
+```
+git reset HEAD <file>
+```
+This command helps to bring back the old program without the recent modification even though the modifications have been stagged.
+
+
+
+
 
 
