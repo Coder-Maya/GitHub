@@ -95,4 +95,33 @@ git add -p
 ```
 asks you whether to commit the changes by showing the new patch that's modified.
 
+## To delete a folder
+```
+git rm <filename>
+```
+and don't forget to commit them 
+
+## To rename the filename
+
+```
+git mv <oldname> <newname>
+```
+and try 'git status' to see the change and commit the change.
+In github, we just move the file to rename it and also to move the directories.
+
+# To ignore something 
+If you want to not commit a certain file into the repository you can use .gitignore command
+```
+echo .DS_STORE > .gitignore
+```
+This ignores the DS_STORE file generated in the OS automatically.
+Again don't forget to commit the cchange
+
+inorder to see all the hidden files too 
+```
+ls -la
+```
+just 'ls' won't show you the hidden files.
+
+
 
